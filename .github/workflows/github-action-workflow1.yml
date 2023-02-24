@@ -7,10 +7,10 @@ on:
 
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
-  GKE_CLUSTER: github-actions-gke
+  GKE_CLUSTER: github-actions-gke1
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: github-actions-gke
-  IMAGE: github-actions-gke-image
+  DEPLOYMENT_NAME: github-actions-gke1
+  IMAGE: github-actions-gke1-image
   TAG: 1.0.0
 
 jobs:
